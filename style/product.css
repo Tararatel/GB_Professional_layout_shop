@@ -25,6 +25,16 @@
   border: none;
 }
 
+.slider-left svg,
+.slider-right svg {
+  fill: black;
+}
+
+.slider-left:hover svg,
+.slider-right:hover svg {
+  fill: #f16d7f;
+}
+
 .slider_img {
   object-fit: cover;
 }
