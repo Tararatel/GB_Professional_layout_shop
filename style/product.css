@@ -1,0 +1,160 @@
+.breadcrumbs.breadcrumbs-product {
+  margin-bottom: 0;
+}
+
+.slider-bg {
+  background-color: #f7f7f7;
+  border: 1px solid #eaeaea;
+  margin-bottom: -60px;
+}
+
+.slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 777px;
+}
+
+.slider-left,
+.slider-right {
+  text-align: center;
+  width: 31px;
+  height: 31px;
+  padding: 8px;
+  background: rgba(42, 42, 42, 0.15);
+  border: none;
+}
+
+.slider_img {
+  object-fit: cover;
+}
+
+.about-item {
+  margin: 0 auto 128px;
+  max-width: 1141px;
+  min-height: 641px;
+  background-color: #fff;
+  text-align: center;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #eaeaea;
+}
+
+.about-item-collection {
+  margin-top: 65px;
+  padding-bottom: 10px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #f16d7f;
+}
+
+.about-item-pink-border {
+  width: 63px;
+  margin: 0 auto;
+  border-bottom: 3px solid #ef5b70;
+}
+
+.about-item-title {
+  margin: 12px 0 49px 0;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4d4d4d;
+}
+
+.about-item-text {
+  margin: 0 auto 32px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5e5e5e;
+  max-width: 570px;
+}
+
+.about-item-price {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ef5b70;
+  margin-bottom: 65px;
+}
+
+.about-item-border {
+  margin: 0 auto 65px;
+  max-width: 642px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.items__filter-checkbox.checkbox-product {
+  margin: 0 auto;
+}
+
+.about-item-btn {
+  margin: 50px auto 0;
+  border: 1px solid #ff6a6a;
+  display: flex;
+  align-items: center;
+  width: 211px;
+}
+
+.about-item-btn img {
+  width: 26px;
+  height: 24px;
+  margin-right: 23px;
+  margin-left: 24px;
+}
+
+.about-item-btn p {
+  padding: 15px 0 15px 0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f26376;
+}
+
+.items.product {
+  margin-bottom: 128px;
+}
+
+@media (max-width: 768px) {
+  .slider-bg {
+    margin-bottom: 0;
+  }
+
+  .slider {
+    min-height: 624px;
+  }
+
+  .about-item {
+    max-height: 600px;
+  }
+
+  .items__list-cards:last-child {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .slider {
+    min-height: 624px;
+  }
+  .slider_img {
+    max-width: 85%;
+    object-fit: cover;
+  }
+
+  .about-item-text {
+    max-width: 326px;
+  }
+
+  .about-item-border {
+    max-width: 125px;
+  }
+
+  .items__filter-checkbox.checkbox-product {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}

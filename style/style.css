@@ -13,6 +13,8 @@ body {
 *::before,
 *::after {
   box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -347,7 +349,7 @@ p {
 }
 
 .items__list-about {
-  margin: 0 0 16px 18px;
+  margin: 0 18px 16px 18px;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -404,7 +406,7 @@ p {
 
 .shop__information-block {
   width: 360px;
-  height: 134px;
+  min-height: 134px;
 }
 
 .shop__information-heading {
